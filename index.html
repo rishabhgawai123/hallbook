@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mahalaxmi Hall Booking</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="logo-container">
+    <img src="logo.png" alt="Logo" class="logo">
+  </div>
+  <h1>Mahalaxmi Hall Booking</h1>
+  
+  <div id="booking-form">
+    <h2>Check and Book Hall</h2>
+    
+    <!-- Form to check availability -->
+    <form id="check-booking-form">
+      <input type="date" name="date" id="date" required>
+      <button type="button" id="check-button">Check Availability</button>
+    </form>
+    
+    <!-- Display availability result -->
+    <div id="availability-result"></div>
+    
+    <!-- Form to book hall -->
+    <form id="book-form" style="display: none;">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="tel" name="mobile" placeholder="Your Mobile Number" required>
+      <button type="submit">Book Hall</button>
+    </form>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/9.17.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.17.2/firebase-firestore.js"></script>
+  <script src="script.js"></script>
+  
+  <footer>Developed By RG</footer>
+</body>
+</html>

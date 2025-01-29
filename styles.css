@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .logo-container {
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  #booking-form {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  h1 {
+    color: #3e3e3e;
+  }
+  
+  form {
+    margin: 20px 0;
+  }
+  
+  input, button {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  footer {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  
